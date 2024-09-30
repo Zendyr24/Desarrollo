@@ -1,0 +1,30 @@
+body{
+    background-color: #f00;
+    margin: 0;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(#0009,transparent);
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+}
+.box2{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#0f0, #000);
+}
+.box3{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#0f0, #000);
+}
+.box4{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background: conic-gradient(#0f0, #000);
+}

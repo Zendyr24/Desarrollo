@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+div, body{
+    box-sizing: border-box;
+}
+.flexbox{
+    display: flex;
+    flex-flow:row wrap;
+    border: 2px solid #000;
+    margin: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: space-around;
+    height: 360px;
+}
+.flex-item{
+    text-align: center;
+    background-color: #f00;
+    font-size: 40px;
+    text-align: center;
+    direction: rtl;
+    width: 100px;
+    height: 50px;
+    color:#fff;
+    transition-duration: 0.4s;
+
+}
+.flex-item:first-child {
+    background-color: #d07;
+}
+.flex-item:last-child{
+    background-color: #000;
+}
+.flex-item:hover{
+    transition-duration: 0.4s;
+    background-color: #3f6;
+    font-size: 10px;
+    color:#000;
+}

@@ -1,0 +1,15 @@
+.box{
+    width:80px;
+    height:80px;
+    background: red;
+    margin: 10px;
+}
+.box1{
+    background: rgb(24, 60, 24);
+}
+.box2{
+    background: #fe6;
+}
+.box3{
+    background: hsl(300, 25%, 50%);
+}
