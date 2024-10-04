@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+div, body{
+    box-sizing : border-box;
+}
+.flexbox{
+    display: flex;
+}
+.flex--item{
+    flex-grow: 1;
+    background-color:#ccc;
+    padding: 30px;
+    border: 1px solid #777;
+    flex-grow: 1;
+}
+@media screen and (max-width:480px){
+    .flexbox{
+        flex-direction: column;
+    }
+}

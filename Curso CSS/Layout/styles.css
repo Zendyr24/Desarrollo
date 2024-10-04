@@ -21,7 +21,7 @@ div,header,nav,h1,h2,p,img{
 .header__overlay{
     height: 100vh;
     width: 100%;
-    background-color:#d80b;
+    background: linear-gradient(transparent, #d80);
     position: absolute;
 }
 .header__item-container{
@@ -55,22 +55,30 @@ h1{
     
     background-color: #fff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 8px 100px 8px 40px;
+    padding: 6px 20px;
     position:sticky;
     top: 0;
-    
+    margin-bottom: 10px;
+    box-shadow: 0 0 25px #0006;
 }
 .nav__ul{
     flex-wrap: wrap;
     margin: 0;
+    padding: 0;
     display: flex;
+    justify-content: center;
 }
 .nav__item{
     list-style: none;
 }
+.list__item-container{
+    flex-grow: 4;
+}
 .list__item-container, .nav__logo--container{
     flex-grow: 1;
+    text-align: center;
 }
 .nav__link{
     color:#d80;
@@ -79,7 +87,7 @@ h1{
     padding: 8px 10px;
     border-radius: 0;
     transition: background-color 0.3s, border-radius 0.24s, outline 0.3s, outline-offset 0.3s;
-    margin: 2;
+    margin: 2px;
     outline: 0;
     outline-offset: 0;
 }
@@ -88,17 +96,29 @@ h1{
     color: #fff;
     padding: 8px 24px;
     border-radius: 20px;
+    margin-left: 6px ;
 }
 .link--login:hover{
     color:#d80;
+    outline: 2px solid #d80;
     outline: none;
 }
 .nav__logo{
     width: 100px;
+    
 }
 .nav__link:hover{
     background-color: #d805;
     border-radius: 20px;
     outline: 2px solid #d80;
     outline-offset: -7px;
+}
+
+/*MAIN SECTION*/
+main{
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+    font-size: 30px;
+    text-wrap: pretty;
 }
